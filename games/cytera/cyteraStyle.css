@@ -1,0 +1,80 @@
+body {
+    font-family: 'Cinzel Decorative', cursive;
+    margin: 0;
+    background-color: #455a64;
+}
+
+.game {
+    background-color: #cddc39;
+    border: 4px solid rgba(28, 49, 58, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 70px 40px 70px;
+    margin: auto;
+    width: 35%;
+}
+
+h1 {
+    text-align: center;
+    color: #ffff6e;
+    margin: 50px;
+    font-size: 500%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.square {
+    border-radius: 10px;
+    background-color: lightyellow;
+    border: 3px solid rgb(205, 220, 57);
+    padding: 20px;
+    font-size: 600%;
+    color: #455a64;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+#winner {
+    font-size: 150%;
+    margin: 20px auto auto;
+    padding: 10px;
+    display: none;
+}
+
+.resetBtn {
+    height: 50px;
+    width: 200px;
+    padding: 16px 32px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #455a64;
+    margin: 20px auto 5px auto;
+    text-align: center;
+    color: #ffff6e;
+}
+
+.resetBtn {
+    transition: transform 0.3s ease-in-out;
+}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
+
+.resetBtn:hover {
+
+    color: lightyellow;
+    transform: scale(1.1);
+    border: 2px solid rgba(28, 49, 58, 0.7);
+}
